@@ -1,0 +1,23 @@
+[
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/myService"
+    },
+    "httpResponse": {
+      "headers": {
+        "content-type": ["application/json"]
+      },
+      "statusCode": 200,
+      "body": "{\"status\": \"SUCCESS\"}"
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/simpleSecond"
+    },
+    "httpResponse": {
+      "body": "some second response"
+    }
+  }
+]
