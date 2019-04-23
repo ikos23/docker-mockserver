@@ -12,4 +12,4 @@ __How to?__
 * Need more configs (or to change some defaults) - check Dockerfile :) 
 
 Having your container up and running means MockServer should be available 
-on smth. like `http:localhost:1080` or wherever your docker lives :)
+on smth. like `http:localhost:1080` or wherever your Docker lives :)
