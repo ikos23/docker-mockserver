@@ -7,7 +7,7 @@ If you'd like to know what `MockServer` is, you can find some info [here](http:/
 __How to?__
 
 * Provide your expectations for MockServer in  `deploy/initializerJson.json`.
-* Run `mvn clean package` to get `docker-mockserver-img:1.0-SNAPSHOT` the image.
+* Run `mvn clean package` to get the image `docker-mockserver-img:1.0-SNAPSHOT` .
 * Create a container using it. Remember to expose port 1080 (MockServer run on this by default).
 * Need more configs (or to change some defaults) - check Dockerfile :) 
 
